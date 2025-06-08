@@ -7,6 +7,7 @@ import os
 CCRE_DOCFREQ_PATH = '../cCRE_document_frequency.npy'
 DATA_PATH = "./raw_h5ad/downsampled_train_20000.h5ad"
 # DATA_PATH = "./raw_h5ad/downsampled_test_10000.h5ad"
+# DATA_PATH = "./raw_h5ad/C3L-00004-T1_CPT0001540013_snATAC_ccRCC.h5ad"
 SAVE_DIR = "./processed_h5ad" 
 
 adata = sc.read_h5ad(DATA_PATH)

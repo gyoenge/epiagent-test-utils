@@ -72,13 +72,13 @@
 - Downsample integrated dataset 
 
     ```
-    $ python downsampling.py 
+    $ python downsampling_stable.py 
     ```
 
 - (final) Convert into cell-sentence, constructing the complete train-test EpiAgent dataset 
 
     ```
-    $ python hasmeta_integration.py 
+    $ python cellsentencing.py 
     ```
 
 ### Check data
